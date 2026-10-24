@@ -1,0 +1,5 @@
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
+
+// Root project doesn't need custom archivesName here; the app module defines the final APK metadata.

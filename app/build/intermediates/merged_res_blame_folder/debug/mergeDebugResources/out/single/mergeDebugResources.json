@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.micardex.app-debug-20:/layout_activity_materia.xml.flat",
+        "source": "com.example.micardex.app-main-22:/layout/activity_materia.xml"
+    },
+    {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_materia.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_materia.xml"
+    },
+    {
+        "merged": "com.example.micardex.app-debug-20:/drawable_nav_home.xml.flat",
+        "source": "com.example.micardex.app-main-22:/drawable/nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_dialog_perfil.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\dialog_perfil.xml"
+    },
+    {
+        "merged": "com.example.micardex.app-debug-20:/drawable_nav_chart.xml.flat",
+        "source": "com.example.micardex.app-main-22:/drawable/nav_chart.xml"
+    },
+    {
+        "merged": "com.example.micardex.app-debug-20:/layout_activity_consultas.xml.flat",
+        "source": "com.example.micardex.app-main-22:/layout/activity_consultas.xml"
+    },
+    {
+        "merged": "com.example.micardex.app-debug-20:/drawable_card_surface.xml.flat",
+        "source": "com.example.micardex.app-main-22:/drawable/card_surface.xml"
+    },
+    {
+        "merged": "com.example.micardex.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "com.example.micardex.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_consultas.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_consultas.xml"
+    }
+]
