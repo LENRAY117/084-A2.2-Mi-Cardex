@@ -10,6 +10,7 @@ color text_primary
 color text_secondary
 color white
 drawable card_surface
+drawable ic_launcher_foreground
 drawable nav_chart
 drawable nav_home
 id btnAgregar
@@ -41,5 +42,7 @@ layout activity_consultas
 layout activity_main
 layout activity_materia
 layout dialog_perfil
+mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
 style Theme.MiCardex
