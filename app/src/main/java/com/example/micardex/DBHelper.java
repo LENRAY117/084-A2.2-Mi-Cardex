@@ -101,6 +101,32 @@ public class DBHelper extends SQLiteOpenHelper {
         return lista;
     }
 
+    public List<Integer> semestresConMaterias() {
+        List<Integer> semestres = new ArrayList<>();
+        Cursor c = getReadableDatabase().rawQuery(
+                "SELECT DISTINCT semestre FROM " + TABLA + " ORDER BY semestre", null);
+        try {
+            while (c.moveToNext()) semestres.add(c.getInt(0));
+        } finally {
+            c.close();
+        }
+        return semestres;
+    }
+
+    public List<Materia> listarPorSemestre(int semestre) {
+        List<Materia> lista = new ArrayList<>();
+        Cursor c = getReadableDatabase().rawQuery(
+                "SELECT id, nombre, semestre, cal_normal, cal_repeticion, cal_especial "
+                        + "FROM " + TABLA + " WHERE semestre = ? ORDER BY nombre COLLATE NOCASE",
+                new String[]{String.valueOf(semestre)});
+        try {
+            while (c.moveToNext()) lista.add(desdeCursor(c));
+        } finally {
+            c.close();
+        }
+        return lista;
+    }
+
     /** Promedio general de las calificaciones finales; null si no hay calificaciones. */
     public Double promedioGeneral() {
         double suma = 0;
