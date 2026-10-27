@@ -709,6 +709,7 @@ id beginning
 id blocking
 id bottom
 id btnAgregar
+id btnAgregarSemestre
 id btnGuardar
 id btnPerfil
 id buttonPanel
@@ -755,6 +756,7 @@ id line1
 id line3
 id listMode
 id list_item
+id listaMaterias
 id lvMaterias
 id message
 id middle
@@ -794,6 +796,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id spSemestre
 id spacer
 id special_effects_controller_view_tag
 id split_action_bar
@@ -831,6 +834,7 @@ id topPanel
 id tvAlumno
 id tvControl
 id tvGeneral
+id tvMateriasVacio
 id tvPerfilCons
 id tvSemestres
 id tvVacio

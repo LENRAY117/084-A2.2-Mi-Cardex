@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
         "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_main.xml"
     },
@@ -8,36 +12,32 @@
         "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\drawable\\nav_home.xml"
     },
     {
-        "merged": "com.example.micardex.app-debug-20:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.micardex.app-main-22:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.micardex.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "com.example.micardex.app-main-22:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.micardex.app-debug-20:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.micardex.app-main-22:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.micardex.app-debug-20:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.micardex.app-main-22:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.micardex.app-debug-20:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.micardex.app-main-22:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_materia.xml.flat",
-        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_materia.xml"
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\drawable_card_surface.xml.flat",
         "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\drawable\\card_surface.xml"
     },
     {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_materia.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\activity_materia.xml"
+    },
+    {
         "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_dialog_perfil.xml.flat",
         "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\layout\\dialog_perfil.xml"
     },
     {
-        "merged": "com.example.micardex.app-debug-20:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.micardex.app-main-22:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\layout_activity_consultas.xml.flat",
@@ -46,5 +46,9 @@
     {
         "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\drawable_nav_chart.xml.flat",
         "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\drawable\\nav_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-debug-20:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\xbox3\\.gradle\\daemon\\8.7\\com.example.micardex.app-main-22:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     }
 ]

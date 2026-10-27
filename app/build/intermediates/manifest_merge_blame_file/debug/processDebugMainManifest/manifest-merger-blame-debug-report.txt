@@ -35,66 +35,65 @@
 24-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:8:9-54
 25        android:supportsRtl="true"
 25-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:9:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.MiCardex" >
-27-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:10:9-46
-28        <activity
-28-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:12:9-19:20
-29            android:name="com.example.micardex.MainActivity"
-29-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:13:13-41
-30            android:exported="true" >
-30-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:14:13-36
-31            <intent-filter>
-31-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:15:13-18:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:16:17-69
-32-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:16:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:17:17-77
-34-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:17:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:21:9-25:58
-38            android:name="com.example.micardex.MateriaActivity"
-38-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:22:13-44
-39            android:exported="false"
-39-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:23:13-37
-40            android:parentActivityName="com.example.micardex.MainActivity"
-40-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:24:13-55
-41            android:windowSoftInputMode="adjustResize" />
-41-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:25:13-55
-42        <activity
-42-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:27:9-30:58
-43            android:name="com.example.micardex.ConsultasActivity"
-43-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:28:13-46
-44            android:exported="false"
-44-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:29:13-37
-45            android:parentActivityName="com.example.micardex.MainActivity" />
-45-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:30:13-55
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-49            android:authorities="com.example.micardex.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
-59
-60</manifest>
+26        android:theme="@style/Theme.MiCardex" >
+26-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:10:9-46
+27        <activity
+27-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:12:9-19:20
+28            android:name="com.example.micardex.MainActivity"
+28-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:13:13-41
+29            android:exported="true" >
+29-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:15:13-18:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:16:17-69
+31-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:17:17-77
+33-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:21:9-25:58
+37            android:name="com.example.micardex.MateriaActivity"
+37-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:22:13-44
+38            android:exported="false"
+38-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:23:13-37
+39            android:parentActivityName="com.example.micardex.MainActivity"
+39-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:24:13-55
+40            android:windowSoftInputMode="adjustResize" />
+40-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:25:13-55
+41        <activity
+41-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:27:9-30:58
+42            android:name="com.example.micardex.ConsultasActivity"
+42-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:28:13-46
+43            android:exported="false"
+43-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:29:13-37
+44            android:parentActivityName="com.example.micardex.MainActivity" />
+44-->C:\Users\xbox3\AndroidStudioProjects\084 A2.2 Mi cardex\084 A2.2 Mi cardex\app\src\main\AndroidManifest.xml:30:13-55
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.example.micardex.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\xbox3\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\xbox3\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

@@ -70,7 +70,7 @@ public class ConsultasActivity extends AppCompatActivity {
 
     private void cargarSemestres() {
         semestres.clear();
-        semestres.addAll(db.semestresConMaterias());
+        semestres.addAll(db.listarSemestres());
 
         List<String> opciones = new ArrayList<>();
         for (int semestre : semestres) {

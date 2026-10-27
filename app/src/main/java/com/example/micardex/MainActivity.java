@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.text.InputType;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -82,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.btnAgregar).setOnClickListener(v ->
                 startActivity(new Intent(this, MateriaActivity.class)));
+        findViewById(R.id.btnAgregarSemestre).setOnClickListener(v -> mostrarDialogoSemestre());
         findViewById(R.id.navConsultas).setOnClickListener(v ->
                 startActivity(new Intent(this, ConsultasActivity.class)));
         findViewById(R.id.navInicio).setOnClickListener(v -> {});
@@ -111,6 +113,43 @@ public class MainActivity extends AppCompatActivity {
         datos.clear();
         datos.addAll(db.listar());
         adapter.notifyDataSetChanged();
+    }
+
+    private void mostrarDialogoSemestre() {
+        EditText entrada = new EditText(this);
+        entrada.setHint("Número de semestre (1-15)");
+        entrada.setInputType(InputType.TYPE_CLASS_NUMBER);
+        entrada.setSingleLine(true);
+        int padding = (int) (24 * getResources().getDisplayMetrics().density);
+        entrada.setPadding(padding, padding / 2, padding, padding / 2);
+
+        AlertDialog dialog = new AlertDialog.Builder(this)
+                .setTitle("Agregar semestre")
+                .setView(entrada)
+                .setPositiveButton("Guardar", null)
+                .setNegativeButton("Cancelar", null)
+                .create();
+        dialog.show();
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(v -> {
+            String texto = entrada.getText().toString().trim();
+            int semestre;
+            try {
+                semestre = Integer.parseInt(texto);
+            } catch (NumberFormatException e) {
+                entrada.setError("Captura un número de semestre");
+                return;
+            }
+            if (semestre < 1 || semestre > 15) {
+                entrada.setError("El semestre debe estar entre 1 y 15");
+                return;
+            }
+            if (!db.agregarSemestre(semestre)) {
+                entrada.setError("Ese semestre ya está registrado");
+                return;
+            }
+            Toast.makeText(this, "Semestre agregado", Toast.LENGTH_SHORT).show();
+            dialog.dismiss();
+        });
     }
 
     private void mostrarDialogoPerfil(boolean obligatorio) {

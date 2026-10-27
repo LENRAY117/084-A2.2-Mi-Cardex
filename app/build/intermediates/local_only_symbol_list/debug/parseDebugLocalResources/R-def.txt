@@ -14,6 +14,7 @@ drawable ic_launcher_foreground
 drawable nav_chart
 drawable nav_home
 id btnAgregar
+id btnAgregarSemestre
 id btnGuardar
 id btnPerfil
 id cbEspecial
@@ -27,14 +28,17 @@ id etRepeticion
 id etSemestre
 id iconNavConsultas
 id iconNavInicio
+id listaMaterias
 id lvMaterias
 id navConsultas
 id navInicio
+id spSemestre
 id textNavConsultas
 id textNavInicio
 id tvAlumno
 id tvControl
 id tvGeneral
+id tvMateriasVacio
 id tvPerfilCons
 id tvSemestres
 id tvVacio

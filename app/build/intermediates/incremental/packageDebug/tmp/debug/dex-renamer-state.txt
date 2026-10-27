@@ -1,4 +1,4 @@
-#Sat Oct 24 18:38:02 CST 2026
+#Tue Oct 27 08:39:00 CST 2026
 base.0=C\:\\Users\\xbox3\\AndroidStudioProjects\\084 A2.2 Mi cardex\\084 A2.2 Mi cardex\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\xbox3\\AndroidStudioProjects\\084 A2.2 Mi cardex\\084 A2.2 Mi cardex\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\xbox3\\AndroidStudioProjects\\084 A2.2 Mi cardex\\084 A2.2 Mi cardex\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
